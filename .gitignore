@@ -1,0 +1,49 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# === Virtualenv ===
+.venv/
+venv/
+ENV/
+env/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Logs ===
+logs/
+*.log
+
+# === Data outputs ===
+data/
+*.xlsx
+*.csv
+
+# === Environment ===
+.env
+.env.*
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Test / Coverage ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.cache/
+
+# === Build / Dist ===
+build/
+dist/
+*.egg-info/
